@@ -20,7 +20,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # 你的輸出資料夾
+          path: vite-project3/dist   # <-- 注意這裡要改成子資料夾(專案其實是在 子資料夾 vite-project3/ 裡面，而不是 repo 根目錄。)(下次要注意)
 
   deploy:
     needs: build
