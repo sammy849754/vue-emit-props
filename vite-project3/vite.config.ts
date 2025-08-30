@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vue-emit-props/',// 將 <repo-name> 換成你的 repo 名稱
+  base: '/vue-emit-props/',// 將 <repo-name> 換成你的 repo 名 稱
   plugins: [
     vue(),
     vueDevTools(),
